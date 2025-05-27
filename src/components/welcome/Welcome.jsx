@@ -16,6 +16,7 @@ const Welcome = () => {
             of using Lorem Ipsum is that it has a more-or-less normal
             distribution.
           </p>
+          
         </Flex>
       </Container>
     </section>
