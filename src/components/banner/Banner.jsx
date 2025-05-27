@@ -10,7 +10,7 @@ const Banner = () => {
             We exist since 1975 on the oil and gas industry.
           </h2>
           <button className="py-[13px] px-10 text-white bg-primary">
-            CONTACT
+          Learn More
           </button>
         </div>
       </Container>
