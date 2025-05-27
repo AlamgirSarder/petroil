@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 import Flex from "../layouts/Flex";
 const Navbar = () => {
   return (
-    <div className="bg-primary py-10">
+    <nav className="bg-primary py-10">
       <Container>
         <Flex className="justify-between items-center">
           <div>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </Flex>
         </Flex>
       </Container>
-    </div>
+    </nav>
   );
 };
 
