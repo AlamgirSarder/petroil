@@ -16,7 +16,6 @@ const About = () => {
             <button className="py-[13px] px-[30px] text-[16px] bg-white text-primary font-semibold ">
               Learn More
             </button>
-          
           </div>
         </Flex>
       </Container>

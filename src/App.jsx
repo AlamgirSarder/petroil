@@ -1,6 +1,7 @@
 import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
 import Header from "./components/header/Header";
+import Logo from "./components/logo/Logo";
 import Navbar from "./components/navbar/Navbar";
 import Services from "./components/services/Services";
 import Slider from "./components/slider/Slider";
@@ -16,6 +17,7 @@ function App() {
       <Slider />
       <Services />
       <About />
+      <Logo />
     </>
   );
 }

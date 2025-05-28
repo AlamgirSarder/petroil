@@ -22,7 +22,7 @@ const Header = () => {
                   className="text-white mr-[5px]"
                   size={20}
                 />
-                <p className=" text-white text-[12px]">mail@yourcompany.com</p>
+                <p className=" relative text-white text-[12px] after:absolute after:content-[''] after:w-[1px] after:h-4 after:bg-[#5C6A92] after:top-1/2 after:-translate-y-1/2 after:right-[-22px]">mail@yourcompany.com</p>
               </Flex>
               <Flex className="items-center">
                 <BiPhoneCall className="text-white mr-[5px]" size={20} />
