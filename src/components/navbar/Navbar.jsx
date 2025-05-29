@@ -14,11 +14,11 @@ const Navbar = () => {
           <Flex className="items-center">
             <div>
               <ul className="font-primary text-[16px] font-semibold text-white flex gap-12">
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Gallery</li>
-                <li>Blog</li>
+                <li className="cursor-pointer">Home</li>
+                <li className="cursor-pointer">About</li>
+                <li className="cursor-pointer">Services</li>
+                <li className="cursor-pointer">Gallery</li>
+                <li className="cursor-pointer">Blog</li>
               </ul>
             </div>
             <div className="ml-[72px]">

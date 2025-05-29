@@ -12,15 +12,15 @@ const imgg = [slide1, slide2, slide3, slide4];
 const Slider = () => {
   return (
     <section>
-      <Container>
-        <Flex className="gap-[30px] justify-between">
+  
+        <Flex className="gap-[30px] justify-center">
           {imgg.map((item, index) => (
-            <div key={index}>
-              <img src={item} alt="slide" className="w-[458px]" />
+            <div key={index} className="w-[458px]">
+              <img src={item} alt="slide" className="w-full h-full" />
             </div>
           ))}
         </Flex>
-      </Container>
+     
     </section>
   );
 };

@@ -34,7 +34,7 @@ const Header = () => {
             </Flex>
 
             <div>
-              <ul className="text-white gap-5 flex">
+              <ul className="text-white gap-5 flex cursor-pointer">
                 <li>
                   <FaFacebookF />
                 </li>
