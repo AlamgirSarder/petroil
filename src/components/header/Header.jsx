@@ -51,7 +51,7 @@ const Header = () => {
           </Flex>
         </Container>
       </div>
-      <hr className="h-[5px] bg-yellow-500 border-t border-b " />
+      <hr className="h-[5px] bg-[#FFB800] border-t border-b " />
     </header>
   );
 };

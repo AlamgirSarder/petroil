@@ -46,7 +46,9 @@ const Blog = () => {
           ))}
         </Flex>
         <div>
-            <h2 className="mt-[28px] font-primary text-[16px] font-bold flex justify-end items-center">MORE FROM THE BLLOG <FaAngleRight size={20}/></h2>
+          <h2 className="mt-[28px] font-primary text-[16px] font-bold flex justify-end items-center">
+            MORE FROM THE BLLOG <FaAngleRight size={20} />
+          </h2>
         </div>
       </Container>
     </section>
