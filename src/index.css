@@ -8,3 +8,7 @@
   --font-primary: "Poppins", sans-serif;
   --color-primary: #F40404;
 }
+
+.slick-slide {
+  padding: 0 15px;
+}

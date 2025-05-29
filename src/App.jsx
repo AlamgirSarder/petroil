@@ -8,7 +8,7 @@ import Logo from "./components/logo/Logo";
 import Maps from "./components/maps/Maps";
 import Navbar from "./components/navbar/Navbar";
 import Services from "./components/services/Services";
-import Slider from "./components/slider/Slider";
+import Sliderpart from "./components/slider/Sliderpart";
 import Welcome from "./components/welcome/Welcome";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <Banner />
       <Welcome />
-      <Slider />
+      <Sliderpart />
       <Services />
       <About />
       <Logo />
