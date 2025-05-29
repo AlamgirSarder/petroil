@@ -2,6 +2,7 @@ import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Logo from "./components/logo/Logo";
 import Maps from "./components/maps/Maps";
@@ -24,6 +25,7 @@ function App() {
       <Blog />
       <Maps />
       <Contact />
+      <Footer />
 
     </>
   );
