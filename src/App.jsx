@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
+import Blog from "./components/blog/Blog";
 import Header from "./components/header/Header";
 import Logo from "./components/logo/Logo";
 import Maps from "./components/maps/Maps";
@@ -19,9 +20,9 @@ function App() {
       <Services />
       <About />
       <Logo />
+      <Blog />
       <Maps />
     </>
   );
 }
-
 export default App;
