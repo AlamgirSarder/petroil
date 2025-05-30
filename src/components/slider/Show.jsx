@@ -25,7 +25,7 @@ function Show() {
     <div>
       <Slider {...settings}>
         {list.map((slide, index) => (
-          <div key={index} className="w-[458px]">
+          <div key={index} className="md:w-[458px]">
             <img src={slide} alt={`slide-${index}`} className="w-full h-full" />
           </div>
         ))}

@@ -12,3 +12,16 @@
 .slick-slide {
   padding: 0 15px;
 }
+
+@media (max-width: 768px) {
+  .slick-slide {
+    padding: 0 5px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .slick-slide {
+    padding: 0 5px;
+  }
+}

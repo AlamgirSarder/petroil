@@ -16,9 +16,9 @@ const Header = () => {
     <header>
       <div className="bg-[#282828] py-[15px]">
         <Container>
-          <Flex className="justify-between">
-            <Flex>
-              <Flex className="items-center mr-[50px]">
+          <Flex className="justify-between flex-col md:flex-row">
+            <Flex className="justify-between md:">
+              <Flex className="items-center md:mr-[50px]">
                 <MdOutlineMarkEmailUnread
                   className="text-white mr-[5px]"
                   size={20}
@@ -34,7 +34,7 @@ const Header = () => {
             </Flex>
 
             <div>
-              <ul className="text-white gap-5 flex cursor-pointer">
+              <ul className="text-white gap-5 flex justify-center mt-[10px] md:mt-0 cursor-pointer">
                 <li>
                   <FaFacebookF />
                 </li>
