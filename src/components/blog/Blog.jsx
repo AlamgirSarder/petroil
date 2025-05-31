@@ -28,11 +28,11 @@ const imgg = [
 
 const Blog = () => {
   return (
-    <section className="bg-[#F0F0F0] py-[110px]">
+    <section className="bg-[#F0F0F0] py-[50px] md:py-[110px]">
       <Container>
-        <Flex className="justify-between">
+        <Flex className="justify-between flex-col md:flex-row">
           {imgg.map((item, index) => (
-            <div key={index} className="w-[339px] h-[401px] relative">
+            <div key={index} className="md:w-[339px] h-[401px] relative mt-[30px] md:mt-0">
               <img src={item.img} alt="slide" className="w-full h-full" />
               <div className="absolute inset-0 bg-black/60">
                 <p className="w-[249px] font-primary text-[24px] font-bold text-white pt-[75px] pl-[46px]">

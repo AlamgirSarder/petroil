@@ -13,7 +13,7 @@ const Logo = () => {
   return (
     <section>
       <Container>
-        <Flex className=' py-[50px] md:py-[117px] justify-between grid grid-cols-2'>
+        <Flex className=' py-[50px] md:py-[117px] justify-between  grid grid-cols-2 md:flex'>
           {
             image.map((item, index) => (
               <img key={index} src={item} alt="logo" />
