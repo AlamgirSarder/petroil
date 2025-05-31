@@ -4,7 +4,7 @@ import Show from "./Show";
 
 const Sliderpart = () => {
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <Show />
     </section>
   );
