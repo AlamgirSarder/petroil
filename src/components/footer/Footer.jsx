@@ -150,6 +150,7 @@ const Footer = () => {
           </p>
         </Container>
       </div>
+      
     </footer>
   );
 };
