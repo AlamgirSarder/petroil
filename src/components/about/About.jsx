@@ -4,7 +4,7 @@ import Flex from "../layouts/Flex";
 
 const About = () => {
   return (
-    <section className="bg-[#F0F0F0] py-[50px] md:py-[136px]">
+    <section id="about" className="bg-[#F0F0F0] py-[50px] md:py-[136px]">
       <Container>
         <Flex>
           <div className="bg-primary py-[50px] md:py-[100px] md:pl-[74px] w-[30%] md:w-[413px]">

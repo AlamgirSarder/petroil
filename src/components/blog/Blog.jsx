@@ -28,7 +28,7 @@ const imgg = [
 
 const Blog = () => {
   return (
-    <section className="bg-[#F0F0F0] py-[50px] md:py-[110px]">
+    <section id="blog" className="bg-[#F0F0F0] py-[50px] md:py-[110px]">
       <Container>
         <Flex className="justify-between flex-col md:flex-row">
           {imgg.map((item, index) => (

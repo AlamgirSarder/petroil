@@ -4,7 +4,7 @@ import Flex from "../layouts/Flex";
 
 const Welcome = () => {
   return (
-    <section className="py-[50px] md:pt-[78px]  md:pb-[100px]">
+    <section id="gallery" className="py-[50px] md:pt-[78px]  md:pb-[100px]">
       <Container>
         <Flex className="items-center flex-col md:flex-row">
           <h2 className="font-primary font-bold text-[30px] md:text-[48px] md:leading-[72px] md:w-[289px] md:mr-[178px] text-center md:text-left mb-5 md:mb-0">

@@ -3,7 +3,7 @@ import Flex from "../layouts/Flex";
 
 const Services = () => {
   return (
-    <section className="md:mt-7">
+    <section id="services" className="md:mt-7">
       <Flex className="flex-col md:flex-row px-4 md:px-0">
         <div className="pt-[50px] md:pt-[147px] pb-[50px] md:pb-[139px] md:w-[50%] flex flex-col md:flex-row md:justify-end">
           <div>
