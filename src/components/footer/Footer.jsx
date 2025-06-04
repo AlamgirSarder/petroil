@@ -29,7 +29,7 @@ const list = [
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
       <div className="py-[50px] md:pt-[149px] md:pb-[170px] bg-[#1F1F1F]">
         <Container>
           <Flex className="justify-between flex-col md:flex-row">

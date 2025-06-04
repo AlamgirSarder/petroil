@@ -13,7 +13,7 @@ import {
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="bg-[#282828] py-[15px]">
         <Container>
           <Flex className="justify-between flex-col md:flex-row">

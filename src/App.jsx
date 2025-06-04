@@ -1,4 +1,5 @@
 import About from "./components/about/About";
+import BackToTop from "./components/backtotop/BackToTop";
 import Banner from "./components/banner/Banner";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
@@ -26,6 +27,7 @@ function App() {
       <Maps />
       <Contact />
       <Footer />
+      <BackToTop/>
 
     </>
   );
